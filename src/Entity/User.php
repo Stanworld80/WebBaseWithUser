@@ -29,14 +29,14 @@ class User implements UserInterface
     /**
      * @var String
      *
-     * @ORM\Column(type="string", length=255, unique=true)
+     * @ORM\Column(type="string", length=127, unique=true)
      */
     private $username;
 
     /**
      * @var String
      *
-     * @ORM\Column(type="string", length=255, unique=true)
+     * @ORM\Column(type="string", length=127, unique=true)
      */
     private $email;
 
