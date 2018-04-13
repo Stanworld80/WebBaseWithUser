@@ -22,6 +22,12 @@ class User implements UserInterface
     /**
      * @var String
      *
+     * @ORM\Column(type="string")
+     */
+    private $test;
+    /**
+     * @var String
+     *
      * @ORM\Column(type="string", length=255)
      */
     private $fullname;
