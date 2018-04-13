@@ -18,13 +18,7 @@ class User implements UserInterface
      * @ORM\Column(type="integer")
      */
     private $id;
-
-    /**
-     * @var String
-     *
-     * @ORM\Column(type="string")
-     */
-    private $test;
+    
     /**
      * @var String
      *
